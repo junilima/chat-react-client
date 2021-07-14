@@ -8,10 +8,11 @@
     "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
     "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject",
-    "lint": "node ../node_modules/eslint/bin/eslint -c ../.eslintrc src",
+    "lint": "node ../node_modules/.bin/eslint -c ../.eslintrc src",
     "lint:fix": "npm run lint --fix"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "chat-react-client": "file:..",
     "lodash": "^4.17.15",
