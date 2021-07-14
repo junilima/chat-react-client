@@ -4,6 +4,8 @@
 
 [![NPM](https://img.shields.io/npm/v/chat-react-client.svg)](https://www.npmjs.com/package/chat-react-client) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+![image](https://user-images.githubusercontent.com/30278498/125557128-f6b9efd1-b83c-4a65-b0ec-d973235f71b2.png)
+
 ## Install
 
 ```bash
