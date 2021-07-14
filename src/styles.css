@@ -63,12 +63,19 @@
 
 .chat-addon-container {
   width: 100%;
+  margin-left: -8px;
   max-height: 120px;
   bottom: 100%;
   background-color: #444444;
   display: flex;
   position: absolute;
   flex-direction: column;
+  overflow-y: auto;
+}
+
+.chat-addon-container-item {
+  display: flex;
+  flex-wrap: wrap;
   overflow-y: auto;
 }
 
@@ -88,8 +95,16 @@
   overflow-y: auto;
 }
 
+.chat-emoticons-item {
+  width: 10%;
+  padding: 2px;
+  text-align: center;
+}
+
 .chat-stickers-item {
   padding: 2px;
+  width: 25%;
+  height: 50px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -106,7 +121,8 @@
 }
 
 .chat-quick-messages-item {
-  padding: 10px 4px;
+  width: 100%;
+  padding: 10px 8px;
   display: flex;
   flex-grow: 1;
   border-bottom: 1px solid #666666;
@@ -122,6 +138,7 @@
 
 .chat-window-row {
   padding: 8px;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
